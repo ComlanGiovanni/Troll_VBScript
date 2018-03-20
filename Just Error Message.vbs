@@ -1,1 +1,0 @@
-x = msgBox("Message d'erreur type ",2+16+4096,"https://www.google.fr/")
