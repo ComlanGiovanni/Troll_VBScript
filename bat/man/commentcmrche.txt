@@ -1,9 +1,0 @@
-3.Then you see a batch file. Double click on this batch file then i will automatic to create a folder name locker.
-
-4.New folder named 'Locker' would be formed at the same location.
-
-5.Now open the folder then you can store all the files you want to hide in the 'Locker' folder. Double click on the batch file to lock the folder name'Locker'.
-
-If you want to unlock your files,double click the batch file again and you would be prompted for password.
-
-Enter the password and enjoy access to the folder.
