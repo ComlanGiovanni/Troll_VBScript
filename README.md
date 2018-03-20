@@ -1,2 +1,2 @@
 # _Troll_VBScript
-:^) LUL
+At least Read the script before XD
