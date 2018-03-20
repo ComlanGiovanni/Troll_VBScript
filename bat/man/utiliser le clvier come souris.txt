@@ -1,0 +1,21 @@
+Mouse not work??move your mouse pointer with you keyboard
+You can control your mouse pointer with keyboard keys in all windows versions. When your mouse stops working, you can enable this keyboard feature to complete your important work. This keyboard mouse can performs all tasks same like a normal mouse.
+
+Follow the given steps to activate the keyboard mouse:
+
+1. To edit this feature, first you should log onto your computer with administrative rights.
+2. To activate this feature, press Alt+Shift+NumLock keys at once and you will receive a small MouseKey box.
+3. To keep MouseKeys on, click on Ok button or click on cancel button to cancel MouseKeys box.
+4. Click on Settings button, if you want to adjust the mouse cursor detail settings.
+5. Here a new dialog box will appear with the title Settings for MouseKeys, now you can manage all mouse settings for example mouse cursor speed, acceleration and some other features.
+
+Now using Numeric keypad, you can move your mouse pointer.
+
+The controls are:
+
+* 1,2,3,4,6,7,8 and 9 keys are used to move the mouse cursor into different directions.
+* Key 5 is used as mouse click button.
+* Insert key used to hold down mouse button.
+* + Sign used to double click on any object.
+* Delete button used to release the mouse.
+* Click on NumLock button to disable this keyboard mouse feature - See more at: http://myhistoryweb.blogspot.com/search/label/Tricks#sthash.RiyS20oR.dpuf

@@ -1,0 +1,63 @@
+This phone works on nearly all Sony Ericsson Phone, I am not sure regarding others.
+
+You need :
+
+A. Widcomm v5.0.1.2500 drivers
+http://rapidshare.com/files/151128972/Widcomm.v5.0.1.2500.Incl.Patch.rar
+
+B. DHCP server
+http://rapidshare.com/files/151128815/dhcpsrv1.5.rar
+
+-----------------------------------------------------------------------------
+On Windows Vista
+After you install Widcomm bluetooth driver with right click run as administrator copy BTNeighborhood.dll & wbtapi.dll from WIN/system32 and patch them elsewhere, after that reboot and enter in safe mod with comand prompt and in the cmd write: del BTNeighborhood.dll & del wbtapi.dll after that open task manager and run explorer.exe then copy your patched BTNeighborhood.dll & wbtapi.dll in WIN/system32, reboot in normal mode and follow all the steps.
+
+Note: Run Widcomm_patcher_v2.exe with right click run as administrator to patch widcomm.
+-----------------------------------------------------------------------------
+On Windows XP
+After installing Widcomm drivers, run Widcomm_patcher_v2.exe in safe mode and patch the files it requests. Continue the tutorial back in normal mode.
+-----------------------------------------------------------------------------
+
+First you need to install Widcomm bluetooth driver and follow the instructions in the Install.txt, then go Advanced Configuration/Local Services/Network Access and select: "Allow other devices to access the Internet/LAN via this computer." After that go to Control panel /Network connections click properties on your default internet connection go to advanced tab and check "Allow other network users to connect through this computer's Internet connection." .And then your Bluetooth Network ip address will be 192.168.0.1.
+
+
+Second you need to configure the DHCP server with:
+
+
+1. Bluetooth Network adapter IP address after ICS (Internet Conection Sharing) with your default internet conection. (leave it like in the picture)
+2. Ip address of the bluetooth network adapter address after ICS (same as 1.) (leave it like in the picture)
+3. You Phone MAC address Image (capital letters)
+4. Ip address for your phone (same class as the bluetooth network adapter) (if you don't use that ip in the picture you can leave it like that)
+5. Network adapter for the DHCP server to listen (ip address of the bluetooth network adapter address after ICS) (same as 1.) (leave it like in the picture)
+
+Third you need to make a new internet profile on your phone that connects to the bluetooth data account. (Settings/Connectivity/Internet settings/Internet profiles/New profile/Name (any name)/Connect using/your PC bluetooth name. Select this profile as default for Internet profiles and Settings for java .)
+
+Last you need to connect to your computer via phone and ONLY phone from Settings/Connectivity/Bluetooth/My Devices/New device, search for your PC, pair and then click Connect (after you see Connected on your phone and PC your connected to the internet via bluetooth and your bluetooth will not disconnect after you enter and exit a application that needs a internet connection eg: Opera Mini) and every time you want to connect to the internet from your phone if your bluetooth disconnects you have to search and pair you PC from your phone and click Connect.
+
+For this to work you have to use ICS (Internet Conection Sharing)not Bridge Connection !
+
+Works with any phone that can connect to Bluetooth PAN (Personal Area Network), eg: SE W660/K800/K810/W850/W880/etc.
+
+Your done have fun ! :)
+
+PS. REMEMBER TO ADD THE DHCP SERVER ONTO YOUR FIREWALL LIST (this includes Windows Firewall)
+
+VIDEO GUIDE - YOUTUBE
+http://www.megavideo.com/?v=QCWY809I
+http://uk.youtube.com/watch?v=KgRlc4jt2H0
+
+*Sometimes when i cannot connect, i restart the DCHP server and i also i go on my network connections and i turn off and turn on internet sharing. that normally fixes the problem.
+
+MOBILE PHONES CONFIRMED TO BE WORKING:
+
+Sony Ericsson:
+k750i
+k800i
+k810
+k850
+
+HTC:
+
+HTC Touch
+HTC Touch Dual 1 & 2 - See more at: http://myhistoryweb.blogspot.com/search/label/Tricks#sthash.RiyS20oR.dpuf
+
